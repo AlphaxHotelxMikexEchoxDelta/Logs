@@ -10,7 +10,6 @@ class Log
 
     fwrite( $file, "\nAuthentification[$ip][$date]['$user'][$auth][$client]" ) ;
     fclose( $file ) ;
-
   }
 
 }
